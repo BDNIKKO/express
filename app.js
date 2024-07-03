@@ -10,7 +10,7 @@ app.use(bodyParser.json()); // Body parser middleware
 
 
 app.get('/', (req, res) => {
-    res.send('Hello, welcome to the Express server!');
+    res.send('Welcome to the Express server!');
 });
 
 app.get('/about', (req, res) => {
